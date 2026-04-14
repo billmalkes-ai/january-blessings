@@ -484,15 +484,15 @@ export default function JanuaryBlessings() {
           ))}
 
           {/* Closing line — thin rule then In Jesus' Holy Name */}
-          <div style={{ height: "1px", background: "#8B691444", margin: "16px 0 14px 0" }} />
+          <div style={{ height: "1px", background: "#8B691455", margin: "16px 0 14px 0" }} />
           <p style={{
             fontStyle: "italic",
-            fontSize: "clamp(13px, 2.8vw, 15px)",
-            lineHeight: 1.6,
+            fontSize: "clamp(15px, 3.2vw, 18px)",
+            lineHeight: 1.7,
             color: "#D4AA5F",
             margin: 0,
-            fontWeight: 400,
-            letterSpacing: "0.3px",
+            fontWeight: 500,
+            letterSpacing: "0.5px",
           }}>{d.prayerClose}</p>
         </div>
 
@@ -550,4 +550,3 @@ export default function JanuaryBlessings() {
     </div>
   );
 }
-
